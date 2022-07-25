@@ -1,4 +1,7 @@
+@use '../../styles/variables';
+
 ._ {
   font-size: 16px;
   padding: 2rem;
+  background: variables.$mainBackgroundColor;
 }
