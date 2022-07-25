@@ -1,0 +1,13 @@
+:root {
+  --main-background-color: red;
+  --primary-font-color: black;
+}
+html,
+body,
+#root {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1;
+  background: var(--main-background-color);
+  height: 100%;
+}
